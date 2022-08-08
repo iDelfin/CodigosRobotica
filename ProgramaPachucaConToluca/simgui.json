@@ -1,0 +1,43 @@
+{
+  "HALProvider": {
+    "Other Devices": {
+      "ADXRS450[0]": {
+        "header": {
+          "open": true
+        }
+      }
+    }
+  },
+  "NTProvider": {
+    "types": {
+      "/FMSInfo": "FMSInfo",
+      "/LiveWindow/Ungrouped/ADXRS450_Gyro[0]": "Gyro",
+      "/LiveWindow/Ungrouped/MecanumDrive[1]": "MecanumDrive",
+      "/LiveWindow/Ungrouped/PWMSparkMax[5]": "Motor Controller",
+      "/LiveWindow/Ungrouped/PWMSparkMax[6]": "Motor Controller",
+      "/LiveWindow/Ungrouped/PWMSparkMax[7]": "Motor Controller"
+    },
+    "windows": {
+      "/FMSInfo": {
+        "window": {
+          "visible": true
+        }
+      },
+      "/LiveWindow/Ungrouped/ADXRS450_Gyro[0]": {
+        "window": {
+          "visible": true
+        }
+      },
+      "/LiveWindow/Ungrouped/MecanumDrive[1]": {
+        "window": {
+          "visible": true
+        }
+      },
+      "/LiveWindow/Ungrouped/PWMSparkMax[5]": {
+        "window": {
+          "visible": true
+        }
+      }
+    }
+  }
+}
